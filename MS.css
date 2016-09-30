@@ -79,6 +79,7 @@ a.links:hover{
 	height: 50px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	display: none;
 }
 
 #copyrightText{
@@ -86,4 +87,5 @@ a.links:hover{
 	font-family: 'Lato', sans-serif;
 	color:#ffffff;
 	margin: 0;
+	display: none;
 }

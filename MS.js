@@ -1,12 +1,13 @@
 
 function loadPage(page)
 {
-	$( "#pageTitle" ).add(".mainBody").add(".bodyText").fadeIn("slow");
+	$( "#pageTitle" ).add(".mainBody").add(".bodyText").add("#copyright").add("#copyrightText").fadeIn("slow");
 }
 
 function pageChange(nextPage)
 {
-  	$( "#pageTitle" ).add(".mainBody").add(".bodyText").fadeOut( "slow", newPage(nextPage) );
+  	$( "#pageTitle" ).add(".mainBody").add(".bodyText").add("#copyright").add("#copyrightText").fadeOut( "slow", newPage(nextPage) );
+	
 }
 
 
