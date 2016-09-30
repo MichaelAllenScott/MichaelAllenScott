@@ -1,2 +1,2 @@
-# MichaelAllenScott
-Personal website
+# MichaelAllenScott.github.io
+Personal website - in progress
