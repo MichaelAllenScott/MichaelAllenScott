@@ -1,2 +1,2 @@
 # MichaelAllenScott.github.io
-Personal website - in progress
+Placeholder website - Design soon to change
