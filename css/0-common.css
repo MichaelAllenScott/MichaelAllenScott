@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'primary';
+    src: url('../assets/fonts/CooperLightBT.ttf');
+}
+
+@font-face {
+    font-family: 'secondary';
+    src: url('../assets/fonts/proxima_nova.ttf');
+}
+
+body {
+    background-image: url(../assets/images/green_dust_scratch.png);
+    background-repeat: repeat;
+}
+
+.main-body {
+    background-image: url(../assets/images/grid_noise.png);
+    background-repeat: repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.section {
+    margin-bottom: 8%;
+}
+
+.section-header-text {
+    font-family: "primary";
+    font-size: 30pt;
+    color: hsl(163, 31%, 38%);
+}
+
+.section-sub-header-text {
+    font-family: "secondary";
+    font-size: 14pt;
+    color: lightslategray;
+    margin-bottom: 5%;
+}
+
+.common-button {
+    text-transform: uppercase;
+    border: 2px solid hsl(163, 31%, 38%);
+    border-radius: 0px;;
+    background-color:hsl(163, 31%, 38%);
+    font-size: 14px;
+    color: white;
+    font-size: 12px;
+    font-family: "primary";
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 26px;
+    width: 100%;
+}
+
+.common-button:hover {
+    background-color: hsl(163, 31%, 31%);
+    border-color: hsl(163, 31%, 31%);
+}
+
+.svg-icon {
+    height: 1.5em;
+    width: 1.5em;
+    color: #fff;
+  }

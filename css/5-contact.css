@@ -1,0 +1,15 @@
+.contact-image {
+    width: 100%;
+}
+
+.contact-me-section {
+    padding-bottom: 8%;
+}
+
+.custom-form-field {
+    font-family: "secondary";
+    font-size: 12pt;
+    border: 2px solid hsl(163, 31%, 38%);
+    border-radius: 0px;
+    background-color: transparent;
+}
