@@ -13,3 +13,8 @@
     border-radius: 0px;
     background-color: transparent;
 }
+
+.form-control:focus {
+    background-color: transparent;
+    border: 2px solid hsl(163, 31%, 38%);
+}
