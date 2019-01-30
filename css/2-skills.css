@@ -3,6 +3,14 @@
     font-size: 14pt;
 }
 
+.technical-skills-header {
+    margin-bottom: 5%
+}
+
+.icon-div {
+    margin-bottom: 4%;
+}
+
 /* MEDIA QUERIES */
 
 /* smartphones, iPhone, portrait 480x320 phones */
