@@ -25,14 +25,14 @@
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
     .greeting-text {
-        font-size: 20pt;
+        font-size: 16pt;
         margin-top: 4%;
     }
 
     .about-me-text {
         font-size: 11pt;
-        margin-top: 14%;
-        margin-bottom: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 

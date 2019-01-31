@@ -69,6 +69,10 @@ body {
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
+    .container {
+        width: 95%;
+    }
+
     .section-header-text {
         font-size: 18pt;
     }
@@ -80,12 +84,24 @@ body {
     
     .common-button {
         border: 2px solid hsl(163, 31%, 38%);
-        font-size: 6px;
+        font-size: 8px;
+    }
+
+    .section {
+        margin-bottom: 20%;
     }
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-@media (min-width:481px)  {  
+@media (min-width:481px)  { 
+    .container {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 8%;
+    }
+
     .section-header-text {
         font-size: 18pt;
     }
@@ -103,6 +119,15 @@ body {
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {  
+    .container {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 8%;
+    }
+
+    
     .section-header-text {
         font-size: 25pt;
     }
@@ -121,6 +146,15 @@ body {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  { 
+    .container {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 8%;
+    }
+
+    
     .section-header-text {
         font-size: 30pt;
     }
@@ -138,6 +172,15 @@ body {
 
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) { 
+    .container {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 8%;
+    }
+
+    
     .section-header-text {
         font-size: 30pt;
     }
@@ -155,6 +198,15 @@ body {
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {  
+    .container {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 8%;
+    }
+
+    
     .section-header-text {
         font-size: 30pt;
     }
