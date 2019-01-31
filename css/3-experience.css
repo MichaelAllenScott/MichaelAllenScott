@@ -119,7 +119,7 @@
 }
 
 .entry .body ul li:before {
-    content: "–";
+    content: "•";
     margin-right: .5em;
 }
 
