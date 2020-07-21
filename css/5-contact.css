@@ -9,14 +9,15 @@
 .custom-form-field {
     font-family: "secondary";
     font-size: 12pt;
-    border: 2px solid hsl(163, 31%, 38%);
+    color: #fff;
+    border: 2px solid #EDB418;
     border-radius: 0px;
-    background-color: transparent;
+    background-color: #23334B;
 }
 
 .form-control:focus {
-    background-color: transparent;
-    border: 2px solid hsl(163, 31%, 38%);
+    background-color: #23334B;
+    border: 2px solid #EDB418;
 }
 
 /* MEDIA QUERIES */

@@ -19,11 +19,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<!--Import Custom JS-->
-<script src="./js/common.js"></script>
-
 <!--jQuery-->
 <script type="text/javascript" src="./assets/libraries/jquery.js"></script>
+
+<!--Import Custom JS-->
+<script src="./js/common.js"></script>
 
 
 <!--div class="center-content about-me-section">
@@ -38,38 +38,35 @@
         </div-->
 
 <body>
-    <div class="main-body container animated fadeIn">
-
+    <div class="loading"><div class="lds-ripple"><div></div><div></div></div></div>
+    <div class="main-body container ">
         <div class="section">
             <div class="row">
-                <div class="col-12 text-center greeting-text">
-                    Hello! Heard you were looking for me.
+                <div class="col-12 text-center greeting-text animated fadeInLeftBig">
+                    Hi! My name is Michael Allen Scott.
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 col-md-3 offset-3 offset-md-3 text-center animated  jackInTheBox">
+            <div class="greeting-section row">
+                <div class="col-6 col-md-3 offset-3 offset-md-3 text-center animated jackInTheBox delay-1s">
                     <img class="hello-image" src="./assets/images/hello-image.png">
                 </div>
                 <div class="col-12 col-md-4 text-center">
                     <div class="row">
                         <div class="col-12 text-center about-me-text">
-                            My name is Michael Allen Scott.
+                            Thanks for stopping by my corner of the internet!
                             <br><br>
-                            I've spent my career architecturing Angular applications and developing their back-end
-                            components.
+                            I am a Web Developer, Designer, and Full-Stack Engineer.
                             <br><br>
-                            My motto is "let's get this done right."
-                            <br><br>
-                            Because I see things through, I'm an ally of design, QA, and product teams.
+                            I love building unique projects that explore the full-potential that web development has to offer.
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-4 offset-2 col-md-6 offset-md-0 text-center">
-                            <a href="https://www.linkedin.com/in/michael-scott-75174b11a/" class="btn btn-primary common-button"
+                            <a href="https://www.linkedin.com/in/michael-scott-75174b11a/" class="btn greeting-button common-button"
                                 role="button">LinkedIn</a>
                         </div>
                         <div class="col-4 col-md-6 text-center">
-                            <button class="btn common-button" onclick="openResumePDF()">Resume</button>
+                            <button class="btn greeting-button common-button" onclick="openResumePDF()">Resume</button>
                         </div>
                     </div>
                 </div>
@@ -394,15 +391,18 @@
 
         <div class="section">
             <div class="row">
-                <div class="col-12 text-center section-header-text">
+                <div class="col-12 text-center section-header-text experience-header">
                     Here's where I've built my career.
                 </div>
             </div>
-            <div class="timeline">
-                <div class="entry">
-                    <div class="title current">
+            <div class="company-entry row">
+                <div class="col-4">
+                    <div class="company-info">
+                        <img class="coupa-logo" src="assets/images/coupa-logo.png">
                         <p class="job-dates">April 2018 - Present</p>
                     </div>
+                </div>
+                <div class="col-8">
                     <div class="body">
                         <p class="job-title">Software Engineer, Coupa/Opus</p>
                         <ul>
@@ -421,10 +421,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="entry">
-                    <div class="title">
+            </div>
+            <div class="company-entry row">
+                <div class="col-4">
+                    <div class="company-info">
+                        <img class="ons-logo" src="assets/images/ons-logo.png">
                         <p class="job-dates">June 2016 - April 2018</p>
                     </div>
+                </div>
+                <div class="col-8">
                     <div class="body">
                         <p class="job-title">Web Developer II, Oncology Nursing Society</p>
                         <ul>
@@ -452,7 +457,7 @@
         <div class="section">
             <div class="row other-info-section">
                 <div class="col-12 text-center section-header-text other-section-header">
-                    I'm always learning.
+                    Hmm...what else?
                 </div>
             </div>
             <div class="row other-info-section">
@@ -489,12 +494,12 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center section-sub-header-text side-project-subtext">
-                    I love to tinker on projects that require focus and care.
+                    I spend my free time tinkering with projects and ideas I like.
                 </div>
             </div>
             <div class="row">
                 <div class=" offset-3 col-6 offset-md-5 col-md-2 text-center">
-                    <a href="https://michaelallenscott.github.io/Projects/" class="btn btn-primary common-button" role="button">Side
+                    <a href="https://michaelallenscott.github.io/Projects/" class="btn common-button" role="button">Side
                         Projects</a>
                 </div>
             </div>

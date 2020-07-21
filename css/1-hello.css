@@ -1,3 +1,11 @@
+.greeting-section {
+    background-image: url(../assets/images/yellow-paint-background.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    padding: 5%;
+}
+
 .hello-image {
     width: 100%;
     margin-top: 5%
@@ -5,16 +13,26 @@
 
 .greeting-text {
     font-family: "primary";
-    font-size: 40pt;
-    color: hsl(163, 31%, 38%);
+    font-size: 50pt;
+    color: EDB418;
     margin-top: 4%
+}
+
+.greeting-button {
+    background-color: #23334B;
+    color: #EDB418;
+}
+
+.greeting-button:hover {
+    background-color: #151e2c;
+    color: #EDB418;
 }
 
 .about-me-text {
     font-family: "secondary";
     text-align: center;
     font-size: 16pt;
-    color: grey;
+    color: #23334B;
     line-height: 1.3;
     margin-top: 14%;
     margin-bottom: 10%;
@@ -25,7 +43,7 @@
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
     .greeting-text {
-        font-size: 16pt;
+        font-size: 20pt;
         margin-top: 4%;
     }
 
@@ -39,7 +57,7 @@
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px)  {
     .greeting-text {
-        font-size: 20pt;
+        font-size: 30pt;
         margin-top: 4%;
     } 
 
@@ -53,7 +71,7 @@
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {  
     .greeting-text {
-        font-size: 30pt;
+        font-size: 40pt;
         margin-top: 4%;
     }
 
@@ -68,7 +86,7 @@
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  { 
     .greeting-text {
-        font-size: 40pt;
+        font-size: 50pt;
         margin-top: 4%;
     }
 
@@ -82,7 +100,7 @@
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) { 
     .greeting-text {
-        font-size: 40pt;
+        font-size: 50pt;
         margin-top: 4%;
     }
 
@@ -96,7 +114,7 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {  
     .greeting-text {
-        font-size: 40pt;
+        font-size: 50pt;
         margin-top: 4%;
     }
 
