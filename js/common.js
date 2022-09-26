@@ -1,5 +1,5 @@
 function openResumePDF() {
-    window.open('./assets/Michael-Scott-Resume.pdf');
+    window.open('./assets/Michael_Scott_CV_NP_L.pdf');
 }
 
 window.onload = () => {
