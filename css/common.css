@@ -233,6 +233,10 @@ li {
     width: 100%;
 }
 
+.hike-images {
+    width: 150%;
+}
+
 .side-project-subtext {
     margin-bottom: 2%;
 }
