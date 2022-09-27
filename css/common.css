@@ -127,6 +127,7 @@ body {
     background-image: url(../assets/images/yellow-paint-background.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 92%;
     position: relative;
     padding: 5%;
 }
@@ -289,6 +290,7 @@ li {
         font-size: 11pt;
         margin-top: 5%;
         margin-bottom: 5%;
+        color: #EDB418;
     }
     .caption {
         font-family: "secondary";
@@ -296,6 +298,20 @@ li {
     }
     .technical-skills-header {
         margin-bottom: 10%
+    }
+    .greeting-section {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 17%;
+    }
+    .greeting-button {
+      background-color: #EDB418;
+      color: #23334B;
+    }
+    .greeting-button:hover {
+        background-color: #c49514;
+        color: #23334B;
     }
 }
 
@@ -324,6 +340,7 @@ li {
         font-size: 12pt;
         margin-top: 14%;
         margin-bottom: 10%;
+        color: #EDB418;
     }
     .caption {
         font-family: "secondary";
@@ -337,6 +354,20 @@ li {
     }
     .contact-image {
         padding-bottom: 0%;
+    }
+    .greeting-section {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 17%;
+    }
+    .greeting-button {
+      background-color: #EDB418;
+      color: #23334B;
+    }
+    .greeting-button:hover {
+        background-color: #c49514;
+        color: #23334B;
     }
 }
 
@@ -365,6 +396,7 @@ li {
         font-size: 13pt;
         margin-top: 14%;
         margin-bottom: 10%;
+        color: #EDB418;
     }
     .caption {
         font-family: "secondary";
@@ -379,6 +411,76 @@ li {
     .contact-image {
         padding-bottom: 0%;
     }
+    .greeting-section {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 17%;
+    }
+    .greeting-button {
+      background-color: #EDB418;
+      color: #23334B;
+    }
+    .greeting-button:hover {
+        background-color: #c49514;
+        color: #23334B;
+    }
+}
+
+@media (min-width:767px) {
+    .container {
+      width: 100%;
+  }
+  .section {
+      margin-bottom: 8%;
+  }
+  .section-header-text {
+      font-size: 25pt;
+  }
+  .section-sub-header-text {
+      font-size: 12pt;
+      margin-bottom: 5%;
+  }
+  .common-button {
+      font-size: 10px;
+  }
+  .greeting-text {
+      font-size: 40pt;
+      margin-top: 4%;
+  }
+  .about-me-text {
+      font-size: 13pt;
+      margin-top: 14%;
+      margin-bottom: 10%;
+      color: #23334B;
+  }
+  .caption {
+      font-family: "secondary";
+      font-size: 14pt;
+  }
+  .technical-skills-header {
+      margin-bottom: 5%
+  }
+  .other-info-section {
+      margin-bottom: 2%;
+  }
+  .contact-image {
+      padding-bottom: 0%;
+  }
+  .greeting-section {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 17%;
+  }
+  .greeting-button {
+    background-color: #23334B;
+    color: #EDB418;
+  }
+  .greeting-button:hover {
+      background-color: #151e2c;
+      color: #EDB418;
+  }
 }
 
 @media (min-width:961px) {
@@ -406,6 +508,7 @@ li {
         font-size: 16pt;
         margin-top: 14%;
         margin-bottom: 10%;
+        color: #23334B;
     }
     .caption {
         font-family: "secondary";
@@ -419,6 +522,18 @@ li {
     }
     .contact-image {
         padding-bottom: 0%;
+    }
+    .greeting-section {
+      background-size: 85%;
+      background-position: center;
+    }
+    .greeting-button {
+      background-color: #23334B;
+      color: #EDB418;
+    }
+    .greeting-button:hover {
+        background-color: #151e2c;
+        color: #EDB418;
     }
 }
 
@@ -447,6 +562,7 @@ li {
         font-size: 16pt;
         margin-top: 14%;
         margin-bottom: 10%;
+        color: #23334B;
     }
     .caption {
         font-family: "secondary";
@@ -460,6 +576,18 @@ li {
     }
     .contact-image {
         padding-bottom: 0%;
+    }
+    .greeting-section {
+      background-size: 85%;
+      background-position: center;
+    }
+    .greeting-button {
+      background-color: #23334B;
+      color: #EDB418;
+    }
+    .greeting-button:hover {
+        background-color: #151e2c;
+        color: #EDB418;
     }
 }
 
@@ -488,6 +616,7 @@ li {
         font-size: 16pt;
         margin-top: 14%;
         margin-bottom: 10%;
+        color: #23334B;
     }
     .caption {
         font-family: "secondary";
@@ -501,5 +630,17 @@ li {
     }
     .contact-image {
         padding-bottom: 0%;
+    }
+    .greeting-section {
+      background-size: 85%;
+      background-position: center;
+    }
+    .greeting-button {
+      background-color: #23334B;
+      color: #EDB418;
+    }
+    .greeting-button:hover {
+        background-color: #151e2c;
+        color: #EDB418;
     }
 }
